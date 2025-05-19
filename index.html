@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="icon" href="/imgs/logoabrigo.png" type="imagem/png">
+    <title>Abrigo</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: left; height: 150px; border: 0%; margin: 0%;">
+        <img src="/imgs/enfeite.png" alt="Enfeito ondulado">
+    </div>
+    <div style="display: flex; justify-content: center; height: 230px; border: 0%; margin-top: -30%;">    
+        <img src="/imgs/logoabrigo.png" alt="Logo do abrigo">
+    </div>
+    <!-- Titulo -->
+    <div id="text" alt="Conheça nossa iniciativa"></div>
+
+    <!-- Botao que muda a posição da pagina -->
+    <button id="quemsomos" onclick="location.href='#destino'">Quem somos</button>
+    
+    <!-- <a id="botao" href="#anchor"><p>Quem somos</p></a> -->
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Conhece algum animal precisando de abrigo?</p>
+            <a id="wpp" href="https://api.whatsapp.com/send/?phone=19983638959&text&type=phone_number&app_absent=0"><p>Entre em contato conosco</p></a>
+        </div>
+    </div>
+    <!-- - -->
+    <div class="quadrado">
+        <img class="imagem" src="/imgs/gif.gif" alt="estrela">
+        </p>Destaques da semana</p>
+    </div>
+    <!-- Carousel -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="/imgs/slide01.png" alt="Imagem 1">
+            <img src="/imgs/slide02.png" alt="Imagem 2">
+            <img src="/imgs/slide03.png" alt="Imagem 3">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <h2 id="destino"></h2>
+    <div class="historia">
+    <div class="titulo2"><p>Não sabe quem somos nós?</p>
+        <p>Então deixa a gente se apresentar!</p>
+        
+        <p>Durante as fortes enchentes que atingiram a região de Jaguariúna, nasceu um projeto muito especial: a criação de um abrigo temporário para o resgate e reabilitação de pequenos animais afetados pela tragédia. Esse projeto foi idealizado dentro da UNIFAJ, e nós, estudantes engajados e apaixonados pela causa animal, não pensamos duas vezes em abraçar essa missão!</p>
+        
+        <p>Com o apoio da universidade, utilizamos as instalações e os equipamentos disponíveis na faculdade para oferecer o máximo de conforto, cuidado e carinho a esses animais que tanto precisavam de ajuda. Desde a triagem veterinária até os cuidados diários, cada passo foi feito com responsabilidade, amor e dedicação.</p>
+        
+        <p>Esse abrigo não é apenas um espaço físico — é um reflexo do nosso compromisso com o bem-estar animal e com a comunidade. E essa é apenas a primeira de muitas ações que queremos levar adiante.</p>
+    
+    </div>
+</div>
+    <!-- - -->
+    <div class="quadrado">
+        <img class="imagem" src="/imgs/gif.gif" alt="estrela">
+        </p>Nossas instalações </p>
+    </div>
+        <div class="carousel2">
+            <img src="/imgs/faculdade.png" alt="Imagem 1">
+     </div>
+
+    <div class="funciona">
+    <p><strong>Como funciona o nosso abrigo?</strong></p>
+    <p>Após o resgate, cada animal passa por um fluxo de cuidados que garante sua segurança e bem-estar. Veja como funciona:</p>
+    
+    <ol>
+      <li><strong>Triagem:</strong> Avaliação inicial do estado de saúde do animal, identificando ferimentos, sinais de doenças ou condições críticas.</li>
+    
+      <li><strong>Primeiros cuidados ou atendimento emergencial:</strong> Realização dos primeiros socorros, higiene básica, alimentação e, quando necessário, atendimento veterinário emergencial para estabilização.</li>
+    
+      <li><strong>Procedimentos cirúrgicos (se necessário):</strong> Caso o animal apresente lesões ou condições que exijam intervenção cirúrgica, ele é encaminhado para o procedimento com todo suporte da equipe e estrutura da UNIFAJ.</li>
+    
+      <li><strong>Alocação no abrigo:</strong> Após estabilizados, os animais são encaminhados para os espaços adequados dentro do abrigo, onde recebem cuidados contínuos, atenção e muito carinho até estarem prontos para adoção ou retorno aos tutores.</li>
+    </ol>
+</div>
+
+    <div class="fim">
+        <h3>Venha nos Conhecer!</h3>
+        <p>Endereço: Rod. Campinas-Mogi Mirim, s/nº - km 127 - Tanquinho Velho, Jaguariúna - SP, 13820-000</p>
+    </div>
+    
+    <h2 id="destino"></h2>
+    <script src="script.js"></script>
+</body>
+</html>

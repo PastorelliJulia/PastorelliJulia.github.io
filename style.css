@@ -1,0 +1,231 @@
+body{
+    margin: 0%;
+    border: 0%;
+    background-color: #103455;
+}
+#text{
+    display: flex;
+    justify-content: center;
+    color: #5b82a6; 
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+/* a#botao{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+    height: 100%;
+    background-color: #081a2b;
+    width: 35%;
+	border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Bytesized", sans-serif; 
+    font-weight: 750;
+    color: #b96c18;
+} */
+button#quemsomos{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    margin:40px;
+    margin-left: 40px;  
+    background-color: #081a2b;
+    width: 80%;
+	border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Bytesized", sans-serif; 
+    font-weight: 800;
+    font-size: medium;
+    color: #b96c18;
+}
+
+a#botao:hover{
+    background-color: #5b82a6;
+    color: #b96c18; 
+}
+
+.modal { 
+    display: none; 
+    position: fixed; 
+    top: 0; left: 0; width: 100%; height: 100%; 
+    background: rgba(0, 0, 0, 0.5);
+    font-family: "Bytesized", sans-serif; 
+}
+
+.modal-content {
+    background: #5b82a6;
+    padding: 20px;
+    width: 300px;
+    margin: 15% auto;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 750;
+    color: #6d3f0e;
+    font-size:larger;
+}
+.close {
+    position: absolute;
+    top: 10px; right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+a#wpp{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    height: 100%;
+    background-color: #081a2b;
+    width: 100%;
+	border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Bytesized", sans-serif; 
+    font-weight: 750;
+    color: #b96c18;
+}
+
+a#wpp:hover{
+    background-color: #5b82a6;
+    color: #103455; 
+}
+
+.carousel-container2 {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel2 {
+    margin: 3%;
+    display: flex;
+    border: 10%;
+    transition: transform 0.5s ease;
+}
+
+.carousel2 img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    margin: 3%;
+    display: flex;
+    border: 10%;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #b96c18;
+    color: #081a2b;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #b96c18;
+    color: #081a2b;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: #834b0f;
+}
+
+.quadrado{
+    display:flex;
+    justify-content: left;
+    background-color: #081a2b;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-bottom: -32px;
+    width: 250px;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    font-family: "Bytesized", sans-serif; 
+    font-weight: 750;
+    color: #b96c18;
+}
+
+.imagem{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    margin-right: 20px;
+    margin-left: 8px;
+    margin-top: -10px;
+}
+.historia{
+    font-family: "Bytesized", sans-serif; 
+    font-weight: 700;
+    color: #b96c18;
+    background-color: #081a2b;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.titulo2{
+    margin-top: -15px;
+    font-weight: 900;
+}
+
+.funciona{
+    font-family: "Bytesized", sans-serif; 
+    font-weight: 700;
+    color: #b96c18;
+    background-color: #081a2b;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.fim{
+    background-color: #081a2b;
+    width: 85%;
+    margin-bottom: -100%;
+    margin-left: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Bytesized", sans-serif; 
+    font-weight: 750;
+    color: #b96c18;
+}
+
+
+
